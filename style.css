@@ -1,0 +1,89 @@
+* {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.3s background-color;
+  }
+p{
+    padding: 20px 15vw;
+}
+img{
+    margin: 20px;
+}
+
+h3{
+    padding: 20px;
+}
+nav ul {
+  list-style: none;
+  background-color: #444;
+}
+
+nav li {
+  width: 70px;
+  height: 5vh;
+  line-height: 5vh;
+  display: inline-block;
+  margin-right: -4px;
+  color: white;
+}
+nav a{
+    color: white
+}
+
+nav li:hover {
+  background-color: #005f5f;
+}
+
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.headshot img {
+  width: 20vw;
+  min-width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 8px 5px lightgrey;
+}
+.portfolio img {
+  width: 50vw;
+}
+
+.about img {
+  width: 10vw;
+}
+
+.tic-tac-toe {
+  background-color: lightgray;
+  clip-path: polygon(150% 5%, 150% 95%, 0% 100%, 0 0);
+}
+
+.guess-number {
+  background-color: lightgray;
+  clip-path: polygon(150% 5%, 150% 95%, 0% 100%, 0 0);
+}
+
+.about figure{
+    padding: 20px;
+}
+
+.contact {
+  background-color: lightgray;
+  clip-path: polygon(150% 5%, 150% 95%, 0% 100%, 0 0);
+  padding-bottom: 40px;
+}
+
+address a{
+    padding: 10px;
+}
