@@ -6,20 +6,20 @@
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    display: block;
-    transition: 0.3s background-color;
-  }
-p{
-    padding: 20px 15vw;
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.3s background-color;
 }
-img{
-    margin: 20px;
+p {
+  padding: 20px 15vw;
+}
+img {
+  margin: 20px;
 }
 
-h3{
-    padding: 20px;
+h3 {
+  padding: 20px;
 }
 nav ul {
   list-style: none;
@@ -34,14 +34,13 @@ nav li {
   margin-right: -4px;
   color: white;
 }
-nav a{
-    color: white
+nav a {
+  color: white;
 }
 
 nav li:hover {
   background-color: #005f5f;
 }
-
 
 .skills {
   display: flex;
@@ -74,8 +73,8 @@ nav li:hover {
   clip-path: polygon(150% 5%, 150% 95%, 0% 100%, 0 0);
 }
 
-.about figure{
-    padding: 20px;
+.about figure {
+  padding: 20px;
 }
 
 .contact {
@@ -84,6 +83,6 @@ nav li:hover {
   padding-bottom: 40px;
 }
 
-address a{
-    padding: 10px;
+address a {
+  padding: 10px;
 }
